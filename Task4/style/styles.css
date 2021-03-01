@@ -1,0 +1,13 @@
+table {
+    margin-top: -10px;
+    border-spacing: 50px 10px;
+    width:100%
+    }
+td{
+    text-align: justify;   
+    vertical-align: top;
+    }
+body {
+    font-family: "Trirong", serif;
+    font-weight: bold;
+    }  
