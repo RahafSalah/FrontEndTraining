@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task7</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+<body>
+    <div  id="myDIV2" class="divImg">
+        <img src="imges/img1.jpg" class="ImgS" alt="John Smith">
+        <div class="download">
+            <span class="material-icons">arrow_downward</span>
+            <div>
+                DOWNLOAD</br>RESUME
+            </div>
+        </div>
+        <img src="imges/10.png" class="img10">
+        <img src="imges/11.png" class="img11">
+        <img src="imges/12.png" class="img12">
+    </div>
+
+    <div id="myDIV" class="divTop">
+        <div class="div5">
+            <h3>
+                <span style="color: #adadaf;">Hello, i'm</span> <span style="font-weight:lighter;">John</span> <strong>Smith</strong>
+            </h3>
+            
+            <h5 style="color: #adadaf; padding:0px 30px 0px 30px;">
+                nec ullamcorper augue sagittis. Proin faucibus lorem nisl, Donec commodo leo est,
+                quis eleifend urna pellentesque eget.<br>
+            </h5>
+
+            <h6 style="color: #4d4d4d;">
+                Proin scelerisque odio eu nisi viverra, nec ullamcorper gue   <a class="contact2" href="#">contact me</a>
+            </h6>           
+            
+            <div class="row1">
+                <div class="column">
+                    PHOTOSHOP
+                    <div class="myProgress">
+                        <div class="myBar1"></div>
+                    </div>
+                    98%
+                </div>
+                
+                <div class="column">
+                    ILLUSTRATOR
+                    <div class="myProgress">
+                        <div class="myBar2"></div>
+                    </div>
+                    70%
+                </div>
+                <div class="column">
+                    HTML/C55
+                    <div class="myProgress">
+                        <div class="myBar3"></div>
+                    </div>
+                    60%
+                </div>
+            </div>
+
+            <div class="hl"></div>
+
+            <div class="row1">
+                <div class="column">
+                    <h1>2000 - 2008</h1>
+                    Jr. Graphic Designer |<span class="link2">ABC Inc.</span>  
+                </div>
+                <div class="column columnCenter">
+                    <h1>2008 - 2010</h1>
+                    Graphic Specialist | <span class="link2">GRAPHICSTUDID</span>
+                </div>
+                <div class="column">
+                    <h1>2010 - Present</h1>
+                    Creative Director | <span class="link2">DESIGN ARTS</span>
+                </div>
+                  
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="div1">
+        <img id="imgLogo" class="img7" src ="imges/7.png"/>
+        <img id="theImage" class="img9" src ="imges/9.png"/> 
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>  
+    </div> 
+    <div class="div3">
+    <div class="divHelloTxt">
+            <span>Hello,</span><br>
+            Donec commodo leo est quis eleifend urna pellentesque eget. Proin scelerisque odio en nisi viverra, nec ullamcorper augue sagittis. Proin faucibus lorem nisl,
+    </div>   
+    </div>
+    
+    
+    <div class="div2">
+        <img src="imges/3.png" class="img3">
+        <img src="imges/4.png" class="img4">
+        <img src="imges/5.png" class="img5">
+        <img src="imges/6.png" class="img6">
+        <div class="readMore">
+            <a href="#">ــــــــ   read more</a>
+        </div>
+        
+        <div class="row"> 
+            <img class="imge" src ="imges/a.png"/>
+            <img class="imge" src ="imges/b.png"/><br>
+            <img class="imge" src ="imges/c.jpg"/>
+            <img class="imge" src ="imges/d.png"/>
+        </div>
+
+        <div class="div4">
+            
+            <span style="letter-spacing: 5px;font-weight: bold;">LOADING </span><br>
+            
+            <img class="img8" src ="imges/8.png"/>
+            <h1>
+                1.800.123.456
+            </h1>
+
+            <h6 style="color: #adadad;">
+                Donec commodo leo est quis eleifend urna pellentesque eget. 
+                Proin scelerisque odio eu nisi viverra, nec ullamcorper augue sagittis. 
+                Proin faucibus lor  or <a class="link2" href="#">contactme@mysite.com</a><br><br>
+            </h6>  
+            <div class="row1">
+                <a class="bottomLink" href="#">FACEBOOK</a>
+                <a class="bottomLink centerLink" href="#">TWITTER</a>
+                <a class="bottomLink" href="#">DRIBBBLE</a>       
+            </div>
+
+        </div> 
+
+        <div class="vl"></div>
+    </div>   
+
+    <script>
+        document.getElementById("myDIV").style.display = "none";
+        document.getElementById("myDIV2").style.display = "none";
+        
+        function myFunction(x) {
+            x.classList.toggle("change");
+            var y = document.getElementById("myDIV");
+            if (y.style.display === "none") {
+                document.getElementById("imgLogo").style.display = "none";
+                document.getElementById("theImage").style.filter="invert(100%)";
+                y.style.display = "block";
+                document.getElementById("myDIV2").style.display = "block";
+            } else {
+                y.style.display = "none";
+                document.getElementById("myDIV2").style.display = "none";
+                document.getElementById("theImage").style.filter="invert(0%)";
+                document.getElementById("imgLogo").style.display = "block";
+            }
+        }
+    </script>
+    
+</body>
+</html>

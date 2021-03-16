@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task6</title>
+    <link rel="stylesheet" href="style/styles.css">
+
+</head>
+<body>
+    <form action="">
+        <h3>
+            Application For Permission To Date My Daughter 
+        </h3>
+        
+        <div class="divStart">Note form is to be completed at least 21 days prior to date</div> 
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter name here"><br><br>
+            <label for="address">Address: </label>
+            <input type="text" id="address" name="address" placeholder="Enter address here"><br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Enter email here"><br><br>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                   placeholder="Enter 10 digit number "><br><br>
+            <label for="iq">IQ: </label>
+            <input type="number" id="iq" name="iq" placeholder="Enter IQ here" min="1"><br><br>
+            Gender <br><br> 
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label> <br><br>  
+            <label for="Date">Date of Proposed Outing: </label>
+            <input type="date" id="Date" name="Date">
+
+        </fieldset>
+
+        <fieldset>
+            Check All That Apply <br><br> 
+            <input type="checkbox" id="choice1" name="choice1" value="choice1">
+            <label for="choice1"> I have tattoos and/or piercings </label><br> 
+            <input type="checkbox" id="choice2" name="choice2" value="choice2">
+            <label for="choice2"> I am more than 2 years older than my daughter </label><br> 
+            <input type="checkbox" id="choice3" name="choice3" value="choice3">
+            <label for="choice3"> I work full-time </label><br> 
+            <input type="checkbox" id="choice4" name="choice4" value="choice4">
+            <label for="choice4"> I own a panel van or VB ute </label><br>
+            <input type="checkbox" id="choice5" name="choice5" value="choice5">
+            <label for="choice5"> My parents are rich </label><br>  
+            <input type="checkbox" id="choice6" name="choice6" value="choice6">
+            <label for="choice6"> Is the date at a well lit public location </label>
+        </fieldset>
+
+        <fieldset>
+            <label for="PoliticalPersuasion">Political Persuasion: </label>
+            <select id="PoliticalPersuasion" name="PoliticalPersuasion">
+                <option value="leftWing">Left Wing</option>
+                <option value="rightWing">Right Wing</option>
+            </select>
+            <label for="EducationLevel"> Education level Completed: </label>
+            <select id="EducationLevel" name="EducationLevel">
+                <option value="nothing">Nothing</option>
+                <option value="primarySchool">Primary School</option>
+                <option value="highSchool">High School</option>
+                <option value="institute">Institute</option>
+                <option value="university">University</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Essay Section</legend><br>
+            In 50 words or more explain why you want to date my daughter <br><br> 
+            <textarea name="textArea1" rows="5" cols="50">Enter Text Here</textarea> <br><br>
+            
+            Please upload contact details for 2 references <br>
+            <textarea name="textArea2" rows="5" cols="50">Enter Text Here</textarea><br><br><br>
+
+            Upload Police Clearance Certificate, Bank Statement and Medical Certificates here:  
+            <label for="fileInput" class="btnSend">Attach Files</label>
+            <input type="file" style="display: none"  id="fileInput" multiple/><br><br><br>
+        </fieldset>
+        
+        <input type="submit" class="btnSend" value="Send Your Application"><br><br>
+    </form> 
+
+</body>
+</html>
