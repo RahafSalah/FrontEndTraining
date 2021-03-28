@@ -7,80 +7,79 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
 <body>
-    <div  id="myDIV2" class="divImg">
-        <img src="imges/img1.jpg" class="ImgS" alt="John Smith">
-        <div class="download">
-            <span class="material-icons">arrow_downward</span>
-            <div>
-                DOWNLOAD</br>RESUME
-            </div>
-        </div>
-        <img src="imges/10.png" class="img10">
-        <img src="imges/11.png" class="img11">
-        <img src="imges/12.png" class="img12">
-    </div>
-
-    <div id="myDIV" class="divTop">
-        <div class="div5">
-            <h3>
-                <span style="color: #adadaf;">Hello, i'm</span> <span style="font-weight:lighter;">John</span> <strong>Smith</strong>
-            </h3>
-            
-            <h5 style="color: #adadaf; padding:0px 30px 0px 30px;">
-                nec ullamcorper augue sagittis. Proin faucibus lorem nisl, Donec commodo leo est,
-                quis eleifend urna pellentesque eget.<br>
-            </h5>
-
-            <h6 style="color: #4d4d4d;">
-                Proin scelerisque odio eu nisi viverra, nec ullamcorper gue   <a class="contact2" href="#">contact me</a>
-            </h6>           
-            
-            <div class="row1">
-                <div class="column">
-                    PHOTOSHOP
-                    <div class="myProgress">
-                        <div class="myBar1"></div>
-                    </div>
-                    98%
+    <div id="hiddenDiv">
+        <div class="divImg">
+            <img src="imges/img1.jpg" class="ImgS" alt="John Smith">
+            <div class="download">
+                <span class="material-icons">arrow_downward</span>
+                <div>
+                    DOWNLOAD</br>RESUME
                 </div>
+            </div>
+            <img src="imges/10.png" class="img10">
+            <img src="imges/11.png" class="img11">
+            <img src="imges/12.png" class="img12">
+        </div>
+        <div class="divTop">
+            <div class="div5">
+                <h3>
+                    <span class="wordHello">Hello, i'm</span> <span class="wordJohn">John</span> <strong>Smith</strong>
+                </h3>
                 
-                <div class="column">
-                    ILLUSTRATOR
-                    <div class="myProgress">
-                        <div class="myBar2"></div>
-                    </div>
-                    70%
-                </div>
-                <div class="column">
-                    HTML/C55
-                    <div class="myProgress">
-                        <div class="myBar3"></div>
-                    </div>
-                    60%
-                </div>
-            </div>
+                <h5>
+                    nec ullamcorper augue sagittis. Proin faucibus lorem nisl, Donec commodo leo est,
+                    quis eleifend urna pellentesque eget.<br>
+                </h5>
 
-            <div class="hl"></div>
+                <h6>
+                    Proin scelerisque odio eu nisi viverra, nec ullamcorper gue   <a class="contact2" href="#">contact me</a>
+                </h6>           
+                
+                <div class="row1">
+                    <div class="column">
+                        PHOTOSHOP
+                        <div class="myProgress">
+                            <div class="myBar1"></div>
+                        </div>
+                        98%
+                    </div>
+                    
+                    <div class="column">
+                        ILLUSTRATOR
+                        <div class="myProgress">
+                            <div class="myBar2"></div>
+                        </div>
+                        70%
+                    </div>
+                    <div class="column">
+                        HTML/C55
+                        <div class="myProgress">
+                            <div class="myBar3"></div>
+                        </div>
+                        60%
+                    </div>
+                </div>
 
-            <div class="row1">
-                <div class="column">
-                    <h1>2000 - 2008</h1>
-                    Jr. Graphic Designer |<span class="link2">ABC Inc.</span>  
+                <div class="hl"></div>
+
+                <div class="row1">
+                    <div class="column">
+                        <h1>2000 - 2008</h1>
+                        Jr. Graphic Designer |<span class="link2">ABC Inc.</span>  
+                    </div>
+                    <div class="column columnCenter">
+                        <h1>2008 - 2010</h1>
+                        Graphic Specialist | <span class="link2">GRAPHICSTUDID</span>
+                    </div>
+                    <div class="column">
+                        <h1>2010 - Present</h1>
+                        Creative Director | <span class="link2">DESIGN ARTS</span>
+                    </div>    
                 </div>
-                <div class="column columnCenter">
-                    <h1>2008 - 2010</h1>
-                    Graphic Specialist | <span class="link2">GRAPHICSTUDID</span>
-                </div>
-                <div class="column">
-                    <h1>2010 - Present</h1>
-                    Creative Director | <span class="link2">DESIGN ARTS</span>
-                </div>
-                  
             </div>
         </div>
-
     </div>
-    
+
     <div class="div1">
         <img id="imgLogo" class="img7" src ="imges/7.png"/>
         <img id="theImage" class="img9" src ="imges/9.png"/> 
@@ -116,14 +115,14 @@
 
         <div class="div4">
             
-            <span style="letter-spacing: 5px;font-weight: bold;">LOADING </span><br>
+            <span class="wordLoading" >LOADING </span><br>
             
             <img class="img8" src ="imges/8.png"/>
             <h1>
                 1.800.123.456
             </h1>
 
-            <h6 style="color: #adadad;">
+            <h6>
                 Donec commodo leo est quis eleifend urna pellentesque eget. 
                 Proin scelerisque odio eu nisi viverra, nec ullamcorper augue sagittis. 
                 Proin faucibus lor  or <a class="link2" href="#">contactme@mysite.com</a><br><br>
@@ -140,20 +139,17 @@
     </div>   
 
     <script>
-        document.getElementById("myDIV").style.display = "none";
-        document.getElementById("myDIV2").style.display = "none";
+        document.getElementById("hiddenDiv").style.display = "none";
         
         function myFunction(x) {
             x.classList.toggle("change");
-            var y = document.getElementById("myDIV");
+            var y = document.getElementById("hiddenDiv");
             if (y.style.display === "none") {
                 document.getElementById("imgLogo").style.display = "none";
                 document.getElementById("theImage").style.filter="invert(100%)";
                 y.style.display = "block";
-                document.getElementById("myDIV2").style.display = "block";
             } else {
                 y.style.display = "none";
-                document.getElementById("myDIV2").style.display = "none";
                 document.getElementById("theImage").style.filter="invert(0%)";
                 document.getElementById("imgLogo").style.display = "block";
             }
